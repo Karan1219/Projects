@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .header{
+    font-size: 6rem;
+    text-align: center;
+}
+.container{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    position: relative;
+    margin: 15px;
+    background-color: green;
+    border: 5px solid black;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+}
+.red{
+    
+    position: relative;
+    margin: 15px;
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+}
+.yellow{
+    position: relative;
+    margin: 15px;
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+}
+.blue{
+    position: relative;
+    margin: 15px;
+    background-color:blue;
+    border: 5px solid black;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+} */
+body {
+    text-align: center;
+    background-color: #011F3F;
+  }
+  
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+    color: #FEF2BF;
+  }
+  
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+  .row{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .btn {
+    margin: 10px; 
+    /* display: inline-block; */
+    height: 180px;
+    width: 180px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
